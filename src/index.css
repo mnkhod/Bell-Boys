@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  @apply text-white;
+}
+
+.text-display {
+  @apply font-main text-[96px] leading-[115px] tracking-[2px] text-white;
+}
+
+.divider-shadow {
+  box-shadow: 0px 0px 8px 0px #D03B3E;
+}
+
+
+
+.text-nav-box {
+  @apply px-[62px] py-[6px];
+}
+
+.text-nav {
+  @apply font-main text-[24px] leading-[28px] tracking-[2px] text-white uppercase cursor-pointer;
+}
+
+.text-active-nav {
+  @apply font-main text-[24px] leading-[28px] tracking-[2px] text-primary border-b-2 border-primary uppercase cursor-pointer;
+}
+
+.text-gallery-filter {
+  @apply font-sub text-text text-[16px] leading-[28px] tracking-[2px] font-semibold;
+}
+
+.text-gallery-active-filter {
+  @apply font-sub text-primary text-[16px] leading-[28px] tracking-[2px] font-semibold;
+}
+
+.text-gallery-nft-title {
+  @apply font-sub text-primary text-[16px] font-[600] leading-[24x] tracking-[4%];
+}
+
+.text-gallery-nft-sub {
+  @apply font-sub text-text text-[20px] font-[700] leading-[24x] tracking-[4%];
+}
+
+.text-search-filter {
+  @apply w-full font-sub placeholder-box text-box text-[12px] leading-[24px] tracking-[2px] font-semibold bg-transparent focus:outline-none;
+}
+
+
