@@ -51,7 +51,7 @@ export default function About() {
             <div className='h-[4px] w-7/12 rounded-[2px] bg-primary divider-shadow'></div>
           </div>
 
-          <p className='font-sub font-[400] text-[16px] leading-[36px] tracking-[2px] pt-[32px]'>Each Bell Boys is a meticulously crafted artwork, boasting a resolution of</p>
+          <p className='font-sub font-[400] text-[16px] leading-[36px] tracking-[2px] pt-[32px]'>Each Bell Boys is a meticulously crafted artwork, boasting a resolution of HD pictures.</p>
         </div>
       </div>
 
